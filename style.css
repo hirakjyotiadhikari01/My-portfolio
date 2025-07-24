@@ -512,19 +512,67 @@ font-size: 3rem;
 .testimonial-box .swiper-pagination-bullet-active {
     background: var(--main-color);
 }
+/* Contact about me Mail id and Call*/
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:#754ef9;
+  padding: 20px 15px;
+  border-radius: 20px; /* Rounded corners */
+  margin: 20px auto;
+  max-width: 400px;
+  min-height: 150px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border: 2px solid white; /* Optional: white border */
+}
+
+.contact-box h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.contact-box p {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.contact-box a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-box a:hover {
+  color: #004466;
+}
+
+@media (max-width: 480px) {
+  .contact-section {
+    max-width: 90%;
+  }
+}
+/*Ear loi khek */
+
+
+
 
 .contact h2 {
     margin-bottom: 3rem;
 
 }
-
 .contact form {
     max-width: 70rem;
     margin: 1rem auto;
     text-align: center;
     margin-bottom: 3rem;
 }
-
+.contact .heading {
+    font-size: 3rem;
+}
 .contact form .input-box {
     display: flex;
     justify-content: space-between;
